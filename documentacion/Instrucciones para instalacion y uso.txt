@@ -1,0 +1,14 @@
+Configuracion
+
+1 - Abrir terminal y ejecutar: python -m venv env
+2 - Activar el env: env/scripts/activate
+3 - Instalar dependencias con el comando: pip install -r requirements.txt
+4 - Archivos PDF: Asegurate que los archivos carreras UBA.pdf y sedes_UBA_CBC.pdf esten en el directorio docs
+5 - Variables de Entorno: Configura las claves API en .env.
+6 - Ejecuta embeddings.py para crear los embeddings.
+
+
+6. Guía de Uso
+1 - Iniciar el Asistente: Ejecuta app.py en el entorno local. La interfaz se carga automáticamente en el navegador.
+2 - Ingresar una Consulta: El usuario escribe una pregunta sobre carreras o sedes de la UBA.
+3 - Respuesta del Asistente: Úbatron responde en un estilo amigable y claro, proporcionando información basada en las bases de datos de carreras y sedes.
